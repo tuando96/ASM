@@ -9,7 +9,7 @@ int main(){
 	scanf("%d",&n);
 	
 	while(i>0 && i<=n){
-		s += 1/i;
+		s += (float)1/i;
 		i++;
 	}
 	printf("s = %f",s);
